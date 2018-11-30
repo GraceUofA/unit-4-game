@@ -1,3 +1,65 @@
 body {
     background-color: bisque;
 }
+
+h1 {
+    background-color: rgb(158, 44, 44);
+    color:darkgrey;
+    padding: 20px;
+    width: 30%;
+    font-size: 50px;
+    text-align: center;
+    }
+    
+p{
+    background-color: pink;
+    color: maroon;
+    width:50%;
+    margin-bottom:10px;
+    font-size: 25px;
+    font-family: "Comic Sans MS";
+    padding: 10px 10px 70px 10px;
+    }
+    
+div{
+    margin: 10px;
+    width: 25%;
+    padding: 10px;
+    }
+    
+.computerChoice {
+    background-color: darkred;
+    width: 20%;
+    height: 90px;
+    float:left;
+    }
+    
+.score {
+    background-color: lightcoral;
+    width: 10%;
+    height: 90px;
+    float: left;
+    }
+    
+.crystals{
+        clear: both;
+    }
+    
+.crystalImage{
+    height: 70px;
+    width: 60px;
+    margin: 10px;
+    }
+    
+.total{
+    background-color: rgb(133, 85, 85);
+    width: 15%;
+    height: 20px;
+    }
+    
+.totalAdded{
+    background-color: rgb(133, 85, 85);
+    width: 15%;
+    height: 100px;
+    }
+    
