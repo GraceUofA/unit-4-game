@@ -17,6 +17,7 @@
 
 <p>You will be given a random number at the start of the game. 
     <br><br>
+
     There are four crystals below. By clicking on a crystal you
     will add a specific amount of points to your total score.
     <br><br>
@@ -31,26 +32,21 @@
     values of each crystal.</p>
     
 
-    <div class="computerChoice">
-        random 
-
-
-    </div>
+    <div class="computerChoice"></div>
 
     <div class="score"> 
         Wins:
         <br><br>
         Losses: 
-    
-
     </div>
+    <input type="input" id="custId" name="custId" value="">
 
     <br/>
-    <div class="crystals">
-        <img src="assets/images/red-crystal.png" class=crystalImage id="red" alt="Red Crystal">
-        <img src="assets/images/yellow-crystal.png" class=crystalImage id= "yellow" alt="Yellow Crystal">
-        <img src="assets/images/green-crystal.png" class=crystalImage id="green" alt="Green Crystal">
-        <img src="assets/images/blue-crystal.png" class=crystalImage id="blue" alt="Blue Crystal">
+    <div type="button" class="crystals">
+        <img src="assets/images/red-crystal.png" class=crystalImage id="red" alt="Red Crystal" onclick="calculation()">
+        <img src="assets/images/yellow-crystal.png" class=crystalImage id= "yellow" alt="Yellow Crystal" onclick="calculation()">
+        <img src="assets/images/green-crystal.png" class=crystalImage id="green" alt="Green Crystal" onclick="calculation()">
+        <img src="assets/images/blue-crystal.png" class=crystalImage id="blue" alt="Blue Crystal" onclick="calculation()">
         
     </div>  
 
@@ -59,8 +55,7 @@
     </div>     
 
 
-         <div class="totalAdded">
-    </div> 
+         <div class="totalAdded"></div> 
     
 
 
