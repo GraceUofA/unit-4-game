@@ -10,6 +10,7 @@ $(document).ready(function(){
 
 })
 
+// Random value from 1-12 assigned to each crystal, and shown in total score window. 
   function calculation(){
       
     var randomNumber = Math.floor(Math.random() * (12-1) + 1);
@@ -19,20 +20,16 @@ $(document).ready(function(){
       totalNumb = 0;
     } 
     
+// Clicked crystal numbers are added up and displayed in total score window
+
     var totalAdding = parseInt(randomNumber)+parseInt(totalNumb);
     $("#custId").val(totalAdding);
    
     $(".totalAdded").html(randomNumber);
   }      
 
-// Random value from 1-12 assigned to each crystal, and shown in total score window. 
 
 
-
-
-
-
-// Clicked crystal numbers are added up and displayed in total score window
 
 
 
